@@ -26,7 +26,7 @@ function Login({ login, isAuthenticated }) {
 	}
 
 	return (
-		<section className='container'>
+		<section className='containerBox'>
 			{/* <div className='alert alert-danger'>Invalid credentials</div> */}
 			<h1 className='large text-heading'>Sign In</h1>
 			<p className='lead'>

@@ -49,7 +49,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
 		<nav className='navbar bg-dark'>
 			<h1>
 				<Link to='/'>
-					<i className='bi bi-terminal'> </i> The Forum
+					<i className='bi bi-terminal'> </i> The TalkSpace
 				</Link>
 			</h1>
 			{!loading && (

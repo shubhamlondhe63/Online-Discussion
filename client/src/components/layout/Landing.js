@@ -13,7 +13,7 @@ const Landing = ({ isAuthenticated }) => {
 			<div className='dark-overlay'>
 				<div className='landing-inner'>
 					<h1 className='x-large'>
-						<i className='bi bi-terminal'></i> The Forum
+						<i className='bi bi-terminal'></i> The TalkSpace
 					</h1>
 					<p className='lead'>
 						Create a engineer profile/portfolio, share posts

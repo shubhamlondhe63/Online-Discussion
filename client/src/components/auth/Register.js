@@ -34,8 +34,8 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 
 	return (
 		// Fragment not used because already in section tag. Fragment is like psuedo div.
-		<section className='container'>
-			<h1 className='large text-heading'>Sign Up</h1>
+		<section className='containerBox'>
+			<h4 className='large text-heading'>Sign Up</h4>
 			<p className='lead'>
 				<i className='fas fa-user'></i> Create Your Account
 			</p>

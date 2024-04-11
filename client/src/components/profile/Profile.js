@@ -35,7 +35,7 @@ const Profile = ({ getProfileById, profile: { profile, loading }, auth }) => {
 					<div class='profile-grid my-1'>
 						<ProfileTop profile={profile} />
 						<ProfileAbout profile={profile} />
-						<div className='profile-exp bg-white p-2'>
+						<div className='profile-exp bg-white p-1'>
 							<h2 className='text-heading'>Experience</h2>
 							{profile.experience.length > 0 ? (
 								<div>

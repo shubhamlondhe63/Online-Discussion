@@ -1,11 +1,21 @@
 /* Global Styles */
-:root {
+/* :root {
 	--primary-color: #17a2b8;
 	--heading-color: #671488;
 	--dark-color: #343a40;
 	--light-color: #f4f4f4;
 	--danger-color: #dc3545;
 	--success-color: #28a745;
+} */
+
+/* Combination 6 */
+:root {
+    --primary-color: #6b8e23;
+    --heading-color: #525CEB;
+    --dark-color: hwb(0 0% 100%);
+    --light-color: #BFCFE7;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
 }
 
 * {
@@ -16,10 +26,11 @@
 
 body {
 	font-family: "Raleway", sans-serif;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	line-height: 1.6;
-	background-color: #fff;
+	background-color: #F8EDFF;
 	color: #333;
+	font-weight: 900;
 }
 
 a {
@@ -45,6 +56,18 @@ img {
 	margin-bottom: 3rem;
 }
 
+/* Utilities */
+.containerBox {
+	max-width: 600px;
+	margin: auto;
+	overflow: hidden;
+	padding: 1rem 2rem;
+	padding-bottom: 2px;
+	margin-top: 6rem;
+	margin-bottom: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 /* Text Styles*/
 .x-large {
 	font-size: 4rem;
@@ -53,7 +76,7 @@ img {
 }
 
 .large {
-	font-size: 3rem;
+	font-size: 2rem;
 	line-height: 1.2;
 	margin-bottom: 1rem;
 }
@@ -382,12 +405,13 @@ button {
 /* Profiles Page */
 .profile {
 	display: grid;
-	grid-template-columns: 2fr 4fr 2fr;
+	grid-template-columns: 1fr 2fr 4fr;
 	align-items: center;
-	grid-gap: 2rem;
+	grid-gap: 6rem;
 	padding: 1rem;
 	line-height: 1.8;
 	margin-bottom: 1rem;
+	border-radius: 10px;
 }
 
 /* Profile Page */
@@ -408,10 +432,13 @@ button {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	background-color: #5a54ac;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 10px;
 }
 
 .profile-top img {
-	width: 250px;
+	width: 150px;
 }
 
 .profile-top .icons a {
